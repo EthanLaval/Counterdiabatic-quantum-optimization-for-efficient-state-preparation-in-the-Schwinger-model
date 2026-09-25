@@ -8,4 +8,6 @@ Schwinger_CD_algorithms_resource_estimation.ipynb - Code that takes the ansatz s
 
 Schwinger_CD_algorithms.ipynb - Code that runs QAOA (arXiv:1411.4028), DC-QAOA (arXiv:2107.02789), CD-inspired (arXiv:2212.13511), CD-mixer (arXiv:2502.15375), and CD-prob for the Schwinger model. It runs the algorithms for a certain number of runs and a range of layers, with different random parameters each time. It then plots the average energy plots, the best energy plots (the run that reached the lowest energy), average approximation ratios, best approximation ratios (the ones closest to one), average state fidelity, and the best state fidelity (the ones closest to one). The average plots for the DC-QAOA, CD-inspired, CD-mixer, and CD-prob only include the runs with the fixed A_DC term.
 
+Schwinger_CD_algorithms-QAOA_initialization.ipynb - Same as Schwinger_CD_algorithms.ipynb but uses the QAOA initialization, described at the end of the results section of the paper, for the variational parameters.
+
 qiskit_env.yaml - conda environment that includes the packages needed to run the codes.
